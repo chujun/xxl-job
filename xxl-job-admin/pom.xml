@@ -149,7 +149,6 @@
     <build>
         <plugins>
             <!-- 配置Tomcat插件 -->
-            <!--该项目要求tomcat7+，tomcat6 javax.servlet-api太老，导致登录报错 -->
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
